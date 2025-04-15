@@ -1,3 +1,10 @@
-<p>switch works!</p>
 <button (click)="incrementar()">Incrementar</button>
+
+@switch(numero){
+  @case(1){<p>UM</p>}
+  @case(2){<p>DOIS</p>}
+  @case(3){<p>TRES</p>}
+  @case(4){<p>QUATRO</p>}
+  @default{<p>OUTRO NUMERO</p>}
+}
 <p>{{numero}}</p>
