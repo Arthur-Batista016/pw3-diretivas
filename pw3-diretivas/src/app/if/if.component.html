@@ -1,0 +1,9 @@
+<button (click)="addTeste()">Adicionar</button>
+<!--Alternativa para o hidden, usando @if, tem diferencas porem visualmente o resultado e o mesmo-->
+
+@if (nomes.length==0){
+  <p>Nao tem nomes disponiveis</p>
+
+} @else{
+  <p>AGORA TEM NOMES DISPONIVEIS</p>
+}
